@@ -467,7 +467,7 @@ Outer Loop (a) → 31
 (Ye pattern 100 tak chalta hai)*/
 
 
-for(var a =1 ; a<=5; a++){
+/*for(var a =1 ; a<=5; a++){
     for (var b=1; b<=a; b++){
         document.write(a + " ");
     }
@@ -480,6 +480,89 @@ for(var a =1 ; a<=5; a++){
         document.write(b + " ");
     }
     document.write("<br>")
-}
+}*/
 
+
+/*var num =[10,20,30,40];
+document.write(num[3])*/
+
+
+/*var num =[10,20,30,40,50,60,70,80,90];
+var sum = 0;
+document.write("<ul>");
+for(var a = 0; a<=8; a++){
+document.write("<li>" + num[a] + "<br>"  + "</li>")
+sum = sum  + num [a]
+
+}
+document.write("</ul>");
+document.write("total sum : " + sum);*/
+
+
+/*var names =["tasbeeha","ayesha","maryam","smaeeen","haniya"];
+
+document.write(names + "<br>");
+names.sort();
+document.write(names + "<br>");*/
+
+
+/*var names =["tasbeeha","ayesha","maryam","smaeeen","haniya"];
+
+document.write(names + "<br>");
+names.sort();
+document.write(names + "<br>");
+names.reverse()
+document.write(names + "<br>");*/
+
+
+
+/*var names =["tasbeeha","ayesha","maryam","smaeeen","haniya"];
+var removed = names.pop()
+document.write(names + "<br>");
+document.write(removed + "<br>");*/
+
+
+/*var names =["tasbeeha","ayesha","maryam","smaeeen","haniya"];
+var add = names.push("manahil","haya");
+document.write(names + "<br>");
+document.write(add + "<br>");*/
+
+
+/*var names =["tasbeeha","ayesha","maryam","smaeeen","haniya"];
+names.shift()
+var removed = names.shift()
+document.write(names + "<br>");
+document.write(removed + "<br>");*/
+
+
+
+/*var names =["tasbeeha","ayesha","maryam"];
+names.unshift("smaeeen","haniya")
+var add = names.unshift()
+document.write(names + "<br>");
+
+document.write(add + "<br>");*/
+
+
+/*var names =["sameen","tasbeeha","maryam","hina","tehmeena"]
+var part = names.slice(1,4)
+document.write(part + "<br>");*/
+
+/*var fruits =["bananan","apple","grapes","cherry"]
+var copy = fruits.slice(1,3);
+document.write( "Remaining array: " +  fruits + "<br>")
+document.write( "Removed elements: " + copy + "<br>")*/
+
+
+
+
+/*var names = ["sameen","tasbeeha","maryam","hina","tehmeena"];
+var part = names.splice(1,2,"bear");
+names.shift()
+names.pop()
+names.pop()
+
+
+document.write("Removed elements: " + part + "<br>");
+document.write("Remaining array: " + names);*/
 
